@@ -38,7 +38,7 @@ CREATE TABLE prestamos (
     CONSTRAINT fk_prestamo_book FOREIGN KEY (id_book) REFERENCES tbl_books (id_book),
     CONSTRAINT ck_return_after_loan CHECK (return_date >= loan_date)
 );
-
+SELECT * FROM biblioteca.prestamos;
 
 
 
