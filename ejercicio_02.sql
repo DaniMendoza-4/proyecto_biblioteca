@@ -26,6 +26,8 @@ CREATE TABLE socio (
     phone varchar(20),
     email varchar(100) UNIQUE
 );
+SELECT * FROM biblioteca.socio;
+
 
 -- Creacion de la tabla "prestamos"
 CREATE TABLE prestamos (
