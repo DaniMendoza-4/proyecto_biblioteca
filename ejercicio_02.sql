@@ -37,12 +37,9 @@ CREATE TABLE prestamos (
     CONSTRAINT fk_prestamo_socio FOREIGN KEY (id_socio) REFERENCES socio (id_socio),
     CONSTRAINT fk_prestamo_book FOREIGN KEY (id_book) REFERENCES tbl_books (id_book),
     CONSTRAINT ck_return_after_loan CHECK (return_date >= loan_date)
-    
-    
-    
-    
-    
-    
-    
--- Jose Daniel Mendoza
 );
+
+
+
+
+-- Jose Daniel Mendoza
